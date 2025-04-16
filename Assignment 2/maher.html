@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic Creation Section</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f8f4eb;
+            padding: 40px;
+        }
+
+        /* Section Title */
+        .section-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .section-header h1 {
+            font-size: 36px;
+            color: #3b3b3b;
+        }
+
+        .section-header p {
+            font-size: 18px;
+            color: #6b6b6b;
+        }
+
+        /* Cards Container */
+        .cards-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 30%;
+            padding-bottom: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            display: block;
+        }
+
+        .card-content {
+            padding: 15px 20px;
+        }
+
+        .card-content h4 {
+            font-size: 16px;
+            color: #888;
+            margin-bottom: 5px;
+        }
+
+        .card-content h2 {
+            font-size: 20px;
+            color: #3b3b3b;
+            margin-bottom: 10px;
+        }
+
+        .card-content p {
+            font-size: 14px;
+            color: #6b6b6b;
+            margin-bottom: 10px;
+        }
+
+        .card-content a {
+            font-size: 14px;
+            color: #ff7360;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .card-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .cards-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .card {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Section Header -->
+    <div class="section-header">
+        <h1>Bring Your Stories to Life</h1>
+        <p>Create, Share, and Collaborate</p>
+    </div>
+
+    <!-- Cards Section -->
+    <div class="cards-container">
+        <div class="card">
+            <img src="image1.jpg" alt="Craft Comics Like a Pro">
+            <div class="card-content">
+                <h4>Your Imagination, Our Tools</h4>
+                <h2>Craft Comics Like a Pro</h2>
+                <p>Simple drag-and-drop interface</p>
+                <a href="#">Get Started Today</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="image2.jpg" alt="Endless Customization Options">
+            <div class="card-content">
+                <h4>Join the Comic Revolution</h4>
+                <h2>Endless Customization Options</h2>
+                <p>Choose from a variety of assets</p>
+                <a href="#">Explore Your Options</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="image3.jpg" alt="Work Together on Comics">
+            <div class="card-content">
+                <h4>Collaborate with Friends</h4>
+                <h2>Work together on comic strips</h2>
+                <p>Share your creations with the world</p>
+                <a href="#">Show Your Work</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
